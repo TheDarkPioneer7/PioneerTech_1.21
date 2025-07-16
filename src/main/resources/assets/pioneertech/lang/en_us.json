@@ -1,0 +1,18 @@
+{
+
+  "item.pioneertech.steel_ingot": "Steel Ingot",
+  "item.pioneertech.steel_nugget": "Steel Nugget",
+  "item.pioneertech.aluminium_ingot": "Aluminium Ingot",
+  "item.pioneertech.aluminium_nugget": "Aluminium Nugget",
+
+  "item.pioneertech.steel_sword": "Steel Sword",
+  "item.pioneertech.steel_pickaxe": "Steel Pickaxe",
+  "item.pioneertech.steel_axe": "Steel Axe",
+  "item.pioneertech.steel_shovel": "Steel Shovel",
+  "item.pioneertech.steel_hoe": "Steel Hoe",
+
+  "block.pioneertech.steel_block": "Steel Block",
+  "block.pioneertech.aluminium_block": "Aluminium Block",
+
+  "itemgroup.pioneertech.pioneertech": "PioneerTech"
+}
