@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "pioneertech",
+	"version": "Structure",
+	"name": "PioneerTech",
+	"description": "Factory Building And Technology Mod!",
+	"authors": [
+		"TDP"
+	],
+	"contact": {
+		"homepage": "https://github.com/TheDarkPioneer7/PioneerTech_1.21",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "GNU General Public Licence v3",
+	"icon": "assets/test/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.tdp.pioneertech.PioneerTech"
+		],
+		"fabric-datagen": [
+			"net.tdp.pioneertech.PioneerTechDataGenerator"
+		],
+		"client" : [
+			"net.tdp.pioneertech.PioneerTechClient"
+		]
+	},
+	"mixins": [
+		"test.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
