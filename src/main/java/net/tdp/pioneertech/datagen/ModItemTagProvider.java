@@ -21,14 +21,19 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
     protected void configure(RegistryWrapper.WrapperLookup wrapperLookup) {
 
         getOrCreateTagBuilder(ItemTags.SWORDS)
-                .add(ModItems.STEEL_SWORD);
+                .add(ModItems.STEEL_SWORD)
+                .add(ModItems.ALUMINIUM_SWORD);
         getOrCreateTagBuilder(ItemTags.PICKAXES)
-                .add(ModItems.STEEL_PICKAXE);
+                .add(ModItems.STEEL_PICKAXE)
+                .add(ModItems.ALUMINIUM_PICKAXE);
         getOrCreateTagBuilder(ItemTags.AXES)
-                .add(ModItems.STEEL_AXE);
+                .add(ModItems.STEEL_AXE)
+                .add(ModItems.ALUMINIUM_AXE);
         getOrCreateTagBuilder(ItemTags.SHOVELS)
-                .add(ModItems.STEEL_SHOVEL);
+                .add(ModItems.STEEL_SHOVEL)
+                .add(ModItems.ALUMINIUM_SHOVEL);
         getOrCreateTagBuilder(ItemTags.HOES)
-                .add(ModItems.STEEL_HOE);
+                .add(ModItems.STEEL_HOE)
+                .add(ModItems.ALUMINIUM_HOE);
     }
 }

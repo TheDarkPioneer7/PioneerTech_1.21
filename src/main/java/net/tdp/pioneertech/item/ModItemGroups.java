@@ -29,6 +29,11 @@ public class ModItemGroups {
                         entries.add(ModItems.STEEL_AXE);
                         entries.add(ModItems.STEEL_SHOVEL);
                         entries.add(ModItems.STEEL_HOE);
+                        entries.add(ModItems.ALUMINIUM_SWORD);
+                        entries.add(ModItems.ALUMINIUM_PICKAXE);
+                        entries.add(ModItems.ALUMINIUM_AXE);
+                        entries.add(ModItems.ALUMINIUM_SHOVEL);
+                        entries.add(ModItems.ALUMINIUM_HOE);
 
 
                     }))

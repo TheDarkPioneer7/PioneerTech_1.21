@@ -40,49 +40,95 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC, ModItems.ALUMINIUM_NUGGET, RecipeCategory.MISC, ModItems.ALUMINIUM_INGOT, "aluminium_ingot_from_aluminium_nuggets", null, "aluminium_nuggets_from_aluminium_ingot", null);
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.STEEL_SWORD)
-                .pattern("R")
-                .pattern("R")
+                .pattern("Q")
+                .pattern("Q")
                 .pattern("S")
-                .input('R', ModItems.STEEL_INGOT)
+                .input('Q', ModItems.STEEL_INGOT)
                 .input('S', Items.STICK)
                 .criterion(hasItem(ModItems.STEEL_INGOT), conditionsFromItem(ModItems.STEEL_INGOT))
                 .offerTo(exporter);
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.STEEL_PICKAXE)
-                .pattern("RRR")
+                .pattern("QQQ")
                 .pattern(" S ")
                 .pattern(" S ")
-                .input('R', ModItems.STEEL_INGOT)
+                .input('Q', ModItems.STEEL_INGOT)
                 .input('S', Items.STICK)
                 .criterion(hasItem(ModItems.STEEL_INGOT), conditionsFromItem(ModItems.STEEL_INGOT))
                 .offerTo(exporter);
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.STEEL_AXE)
-                .pattern("RR")
-                .pattern("RS")
+                .pattern("QQ")
+                .pattern("QS")
                 .pattern(" S")
-                .input('R', ModItems.STEEL_INGOT)
+                .input('Q', ModItems.STEEL_INGOT)
                 .input('S', Items.STICK)
                 .criterion(hasItem(ModItems.STEEL_INGOT), conditionsFromItem(ModItems.STEEL_INGOT))
                 .offerTo(exporter);
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.STEEL_SHOVEL)
-                .pattern("R")
+                .pattern("Q")
                 .pattern("S")
                 .pattern("S")
-                .input('R', ModItems.STEEL_INGOT)
+                .input('Q', ModItems.STEEL_INGOT)
                 .input('S', Items.STICK)
                 .criterion(hasItem(ModItems.STEEL_INGOT), conditionsFromItem(ModItems.STEEL_INGOT))
                 .offerTo(exporter);
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.STEEL_HOE)
-                .pattern("RR")
+                .pattern("QQ")
                 .pattern(" S")
                 .pattern(" S")
-                .input('R', ModItems.STEEL_INGOT)
+                .input('Q', ModItems.STEEL_INGOT)
                 .input('S', Items.STICK)
                 .criterion(hasItem(ModItems.STEEL_INGOT), conditionsFromItem(ModItems.STEEL_INGOT))
                 .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.ALUMINIUM_SWORD)
+                .pattern("A")
+                .pattern("A")
+                .pattern("S")
+                .input('A', ModItems.ALUMINIUM_INGOT)
+                .input('S', Items.STICK)
+                .criterion(hasItem(ModItems.ALUMINIUM_INGOT), conditionsFromItem(ModItems.ALUMINIUM_INGOT))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.ALUMINIUM_PICKAXE)
+                .pattern("AAA")
+                .pattern(" S ")
+                .pattern(" S ")
+                .input('A', ModItems.ALUMINIUM_INGOT)
+                .input('S', Items.STICK)
+                .criterion(hasItem(ModItems.ALUMINIUM_INGOT), conditionsFromItem(ModItems.ALUMINIUM_INGOT))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.ALUMINIUM_AXE)
+                .pattern("AA")
+                .pattern("AS")
+                .pattern(" S")
+                .input('A', ModItems.ALUMINIUM_INGOT)
+                .input('S', Items.STICK)
+                .criterion(hasItem(ModItems.ALUMINIUM_INGOT), conditionsFromItem(ModItems.ALUMINIUM_INGOT))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.ALUMINIUM_SHOVEL)
+                .pattern("A")
+                .pattern("S")
+                .pattern("S")
+                .input('A', ModItems.ALUMINIUM_INGOT)
+                .input('S', Items.STICK)
+                .criterion(hasItem(ModItems.ALUMINIUM_INGOT), conditionsFromItem(ModItems.ALUMINIUM_INGOT))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.ALUMINIUM_HOE)
+                .pattern("AA")
+                .pattern(" S")
+                .pattern(" S")
+                .input('A', ModItems.ALUMINIUM_INGOT)
+                .input('S', Items.STICK)
+                .criterion(hasItem(ModItems.ALUMINIUM_INGOT), conditionsFromItem(ModItems.ALUMINIUM_INGOT))
+                .offerTo(exporter);
+
 
 
 

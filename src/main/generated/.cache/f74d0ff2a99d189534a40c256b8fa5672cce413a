@@ -1,13 +1,18 @@
-// 1.21	2025-07-16T23:53:37.793118	PioneerTech/Model Definitions
+// 1.21	2025-07-17T10:50:57.2533768	PioneerTech/Model Definitions
 d1a218ecec3ec8391460299c127892293d3abcbf assets\pioneertech\models\item\aluminium_block.json
 311168354b38ed15c179f13de8c856433f12eaf2 assets\pioneertech\models\item\steel_shovel.json
+fe19d34b15d5647cb9cc49254efe6cb910d7f884 assets\pioneertech\models\item\aluminium_shovel.json
 969f6631511c329fbeccfd149d8b25c53a93a16f assets\pioneertech\models\item\steel_block.json
+6de50f22e59218af2ef59e161bc7cff3da96ec8b assets\pioneertech\models\item\aluminium_hoe.json
+9d89f8494eac0c1ee03b041b867ed05ecec66439 assets\pioneertech\models\item\aluminium_axe.json
+d1b7915cb5dd541024ede46b66bdd53d5f5197de assets\pioneertech\models\item\aluminium_pickaxe.json
 f4b73476079b6eb9325c2b3cadeda5c56547a162 assets\pioneertech\models\item\steel_ingot.json
 370a7701aea78edaa21d692b86c642f6dbf1528e assets\pioneertech\models\item\steel_pickaxe.json
 cee43ecbd58f0f44657038a7897b46fd5723c6f8 assets\pioneertech\models\block\aluminium_block.json
 81f8eb8ce11f7a483965ed38d657e411b03f54bd assets\pioneertech\models\item\aluminium_ingot.json
-526786c2c8ffc2173d079fc10a6a0321391ab848 assets\pioneertech\models\item\aluminium_nugget.json
+a6c9d4ecaa9136f9f9ee02ba0542c727afa8b959 assets\pioneertech\models\item\aluminium_sword.json
 da9e2e6b425e10c9fadcbaf74b391c2b326ed1bf assets\pioneertech\models\item\steel_sword.json
+526786c2c8ffc2173d079fc10a6a0321391ab848 assets\pioneertech\models\item\aluminium_nugget.json
 e97a05c7914a65b7b672a5755a74d9856eb2e626 assets\pioneertech\blockstates\steel_block.json
 49df5ce0ae781495ade3837bbae5434fb96b247c assets\pioneertech\models\item\steel_axe.json
 9827dd1abf82589d80ca846f1e05dd4c0bd9c72c assets\pioneertech\models\item\steel_hoe.json

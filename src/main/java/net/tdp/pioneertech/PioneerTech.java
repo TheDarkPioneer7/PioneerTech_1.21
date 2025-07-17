@@ -23,7 +23,6 @@ public class PioneerTech implements ModInitializer {
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 
-		ItemConvertible items = ModItems.STEEL_INGOT;
 
 	}
 }

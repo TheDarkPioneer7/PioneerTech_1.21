@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "R": {
+    "Q": {
       "item": "pioneertech:steel_ingot"
     },
     "S": {
@@ -10,8 +10,8 @@
     }
   },
   "pattern": [
-    "R",
-    "R",
+    "Q",
+    "Q",
     "S"
   ],
   "result": {

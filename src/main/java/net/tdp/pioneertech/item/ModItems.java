@@ -36,7 +36,28 @@ public class ModItems {
 
     public static final Item STEEL_HOE = registerItem("steel_hoe",
             new HoeItem(ModToolMaterials.STEEL_INGOT, new Item.Settings()
-                    .attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterials.STEEL_INGOT, -3, 0))));
+                    .attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterials.STEEL_INGOT, -2.5f, 0))));
+
+
+    public static final Item ALUMINIUM_SWORD = registerItem("aluminium_sword",
+            new SwordItem(ModToolMaterials.ALUMINIUM_INGOT, new Item.Settings()
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.ALUMINIUM_INGOT, 3, -2.4f))));
+
+    public static final Item ALUMINIUM_PICKAXE = registerItem("aluminium_pickaxe",
+            new PickaxeItem(ModToolMaterials.ALUMINIUM_INGOT, new Item.Settings()
+                    .attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.ALUMINIUM_INGOT, 1, -2.8f))));
+
+    public static final Item ALUMINIUM_AXE = registerItem("aluminium_axe",
+            new AxeItem(ModToolMaterials.ALUMINIUM_INGOT, new Item.Settings()
+                    .attributeModifiers(AxeItem.createAttributeModifiers(ModToolMaterials.ALUMINIUM_INGOT, 5, -3))));
+
+    public static final Item ALUMINIUM_SHOVEL = registerItem("aluminium_shovel",
+            new ShovelItem(ModToolMaterials.ALUMINIUM_INGOT, new Item.Settings()
+                    .attributeModifiers(ShovelItem.createAttributeModifiers(ModToolMaterials.ALUMINIUM_INGOT, 1.5f, -3))));
+
+    public static final Item ALUMINIUM_HOE = registerItem("aluminium_hoe",
+            new HoeItem(ModToolMaterials.ALUMINIUM_INGOT, new Item.Settings()
+                    .attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterials.ALUMINIUM_INGOT, -2, 0))));
 
 
 

@@ -10,7 +10,9 @@ import net.tdp.pioneertech.util.ModTags;
 import java.util.function.Supplier;
 
 public enum ModToolMaterials implements ToolMaterial {
-    STEEL_INGOT(ModTags.Blocks.INCORRECT_FOR_STEEL_TOOL, 1796, 8.5F, 3.5F, 12, () -> Ingredient.ofItems(ModItems.STEEL_INGOT));
+
+    STEEL_INGOT(ModTags.Blocks.INCORRECT_FOR_STEEL_TOOL, 1280, 7.5F, 2.5F, 12, () -> Ingredient.ofItems(ModItems.STEEL_INGOT)),
+    ALUMINIUM_INGOT(ModTags.Blocks.INCORRECT_FOR_ALUMINIUM_TOOL, 765, 10, 2, 15, () -> Ingredient.ofItems(ModItems.ALUMINIUM_INGOT));
 
     private final TagKey<Block> inverseTag;
     private final int itemDurability;

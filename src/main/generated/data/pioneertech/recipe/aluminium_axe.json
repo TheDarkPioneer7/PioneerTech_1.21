@@ -2,20 +2,20 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "Q": {
-      "item": "pioneertech:steel_ingot"
+    "A": {
+      "item": "pioneertech:aluminium_ingot"
     },
     "S": {
       "item": "minecraft:stick"
     }
   },
   "pattern": [
-    "QQ",
-    " S",
+    "AA",
+    "AS",
     " S"
   ],
   "result": {
     "count": 1,
-    "id": "pioneertech:steel_hoe"
+    "id": "pioneertech:aluminium_axe"
   }
 }
