@@ -20,20 +20,33 @@ public class ModItemGroups {
                         entries.add(ModBlocks.STEEL_BLOCK);
                         entries.add(ModItems.STEEL_INGOT);
                         entries.add(ModItems.STEEL_NUGGET);
-                        entries.add(ModBlocks.ALUMINIUM_BLOCK);
-                        entries.add(ModItems.ALUMINIUM_INGOT);
-                        entries.add(ModItems.ALUMINIUM_NUGGET);
 
                         entries.add(ModItems.STEEL_SWORD);
                         entries.add(ModItems.STEEL_PICKAXE);
                         entries.add(ModItems.STEEL_AXE);
                         entries.add(ModItems.STEEL_SHOVEL);
                         entries.add(ModItems.STEEL_HOE);
+
+                        entries.add(ModItems.STEEL_HELMET);
+                        entries.add(ModItems.STEEL_CHESTPLATE);
+                        entries.add(ModItems.STEEL_LEGGINGS);
+                        entries.add(ModItems.STEEL_BOOTS);
+
+
+                        entries.add(ModBlocks.ALUMINIUM_BLOCK);
+                        entries.add(ModItems.ALUMINIUM_INGOT);
+                        entries.add(ModItems.ALUMINIUM_NUGGET);
+
                         entries.add(ModItems.ALUMINIUM_SWORD);
                         entries.add(ModItems.ALUMINIUM_PICKAXE);
                         entries.add(ModItems.ALUMINIUM_AXE);
                         entries.add(ModItems.ALUMINIUM_SHOVEL);
                         entries.add(ModItems.ALUMINIUM_HOE);
+
+                        entries.add(ModItems.ALUMINIUM_HELMET);
+                        entries.add(ModItems.ALUMINIUM_CHESTPLATE);
+                        entries.add(ModItems.ALUMINIUM_LEGGINGS);
+                        entries.add(ModItems.ALUMINIUM_BOOTS);
 
 
                     }))

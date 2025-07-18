@@ -23,6 +23,7 @@ public class ModModelProvider extends FabricModelProvider {
 
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
+
         itemModelGenerator.register(ModItems.STEEL_INGOT, Models.GENERATED);
         itemModelGenerator.register(ModItems.STEEL_NUGGET, Models.GENERATED);
         itemModelGenerator.register(ModItems.ALUMINIUM_INGOT, Models.GENERATED);
@@ -39,6 +40,17 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.ALUMINIUM_AXE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.ALUMINIUM_SHOVEL, Models.HANDHELD);
         itemModelGenerator.register(ModItems.ALUMINIUM_HOE, Models.HANDHELD);
+
+
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.STEEL_HELMET);
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.STEEL_CHESTPLATE);
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.STEEL_LEGGINGS);
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.STEEL_BOOTS);
+
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.ALUMINIUM_HELMET);
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.ALUMINIUM_CHESTPLATE);
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.ALUMINIUM_LEGGINGS);
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.ALUMINIUM_BOOTS);
 
 
     }

@@ -61,6 +61,39 @@ public class ModItems {
 
 
 
+    public static final Item STEEL_HELMET = registerItem("steel_helmet",
+            new ArmorItem(ModArmorMaterials.STEEL_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.HELMET.getMaxDamage(25))));
+
+    public static final Item STEEL_CHESTPLATE = registerItem("steel_chestplate",
+            new ArmorItem(ModArmorMaterials.STEEL_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(25))));
+
+    public static final Item STEEL_LEGGINGS = registerItem("steel_leggings",
+            new ArmorItem(ModArmorMaterials.STEEL_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(25))));
+
+    public static final Item STEEL_BOOTS = registerItem("steel_boots",
+            new ArmorItem(ModArmorMaterials.STEEL_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(25))));
+
+
+    public static final Item ALUMINIUM_HELMET = registerItem("aluminium_helmet",
+            new ArmorItem(ModArmorMaterials.ALUMINIUM_ARMOR_MATERIAL, ArmorItem.Type.HELMET, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.HELMET.getMaxDamage(20))));
+
+    public static final Item ALUMINIUM_CHESTPLATE = registerItem("aluminium_chestplate",
+            new ArmorItem(ModArmorMaterials.ALUMINIUM_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(20))));
+
+    public static final Item ALUMINIUM_LEGGINGS = registerItem("aluminium_leggings",
+            new ArmorItem(ModArmorMaterials.ALUMINIUM_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(20))));
+
+    public static final Item ALUMINIUM_BOOTS = registerItem("aluminium_boots",
+            new ArmorItem(ModArmorMaterials.ALUMINIUM_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, new Item.Settings()
+                    .maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(20))));
+
 
     private static Item registerItem(String name, Item item) {
 

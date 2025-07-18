@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "Q": {
+      "item": "pioneertech:steel_ingot"
+    }
+  },
+  "pattern": [
+    "Q Q",
+    "Q Q"
+  ],
+  "result": {
+    "count": 1,
+    "id": "pioneertech:steel_boots"
+  }
+}

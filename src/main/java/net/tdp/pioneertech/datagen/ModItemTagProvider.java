@@ -35,5 +35,17 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
         getOrCreateTagBuilder(ItemTags.HOES)
                 .add(ModItems.STEEL_HOE)
                 .add(ModItems.ALUMINIUM_HOE);
+
+        getOrCreateTagBuilder(ItemTags.TRIMMABLE_ARMOR)
+                .add(ModItems.STEEL_HELMET)
+                .add(ModItems.STEEL_CHESTPLATE)
+                .add(ModItems.STEEL_LEGGINGS)
+                .add(ModItems.STEEL_BOOTS)
+
+                .add(ModItems.ALUMINIUM_HELMET)
+                .add(ModItems.ALUMINIUM_CHESTPLATE)
+                .add(ModItems.ALUMINIUM_LEGGINGS)
+                .add(ModItems.ALUMINIUM_BOOTS);
+
     }
 }

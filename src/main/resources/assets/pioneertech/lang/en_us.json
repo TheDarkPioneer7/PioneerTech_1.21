@@ -17,6 +17,16 @@
   "item.pioneertech.aluminium_shovel": "Aluminium Shovel",
   "item.pioneertech.aluminium_hoe": "Aluminium Hoe",
 
+  "item.pioneertech.steel_helmet": "Steel Helmet",
+  "item.pioneertech.steel_chestplate": "Steel Chestplate",
+  "item.pioneertech.steel_leggings": "Steel Leggings",
+  "item.pioneertech.steel_boots": "Steel Boots",
+
+  "item.pioneertech.aluminium_helmet": "Aluminium Helmet",
+  "item.pioneertech.aluminium_chestplate": "Aluminium Chestplate",
+  "item.pioneertech.aluminium_leggings": "Aluminium Leggings",
+  "item.pioneertech.aluminium_boots": "Aluminium Boots",
+
   "block.pioneertech.steel_block": "Steel Block",
   "block.pioneertech.aluminium_block": "Aluminium Block",
 

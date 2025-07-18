@@ -1,6 +1,7 @@
-// 1.21	2025-07-17T10:50:57.1984347	PioneerTech/Tags for minecraft:item
+// 1.21	2025-07-18T11:19:44.746077	PioneerTech/Tags for minecraft:item
 ddd012b9861d68311f0ef6dc7be0f6a857b1d29c data\minecraft\tags\item\pickaxes.json
 6b14b1746722e269138547d664652c9bf6b01c44 data\minecraft\tags\item\shovels.json
 ecfa9d3adbab48b8a25045e92c1e9e13df6a801a data\minecraft\tags\item\swords.json
+cd95dd536669ab7536bf8960cae49d2e138d4780 data\minecraft\tags\item\trimmable_armor.json
 8b482cf3762700e985fefb12538ff073e788ae6b data\minecraft\tags\item\axes.json
 a4d3985c554f8836f110123ab43009048067c2ab data\minecraft\tags\item\hoes.json
