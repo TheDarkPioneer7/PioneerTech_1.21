@@ -4,19 +4,13 @@ import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
 import net.minecraft.data.server.recipe.RecipeExporter;
 import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
-import net.minecraft.data.server.recipe.ShapelessRecipeJsonBuilder;
 import net.minecraft.item.ItemConvertible;
 import net.minecraft.item.Items;
-import net.minecraft.recipe.AbstractCookingRecipe;
-import net.minecraft.recipe.Ingredient;
 import net.minecraft.recipe.book.RecipeCategory;
 import net.minecraft.registry.RegistryWrapper;
-import net.minecraft.util.Identifier;
-import net.tdp.pioneertech.PioneerTech;
 import net.tdp.pioneertech.block.ModBlocks;
 import net.tdp.pioneertech.item.ModItems;
 
-import java.util.AbstractCollection;
 import java.util.List;
 import java.util.concurrent.CompletableFuture;
 
@@ -191,9 +185,13 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.ALUMINIUM_INGOT), conditionsFromItem(ModItems.ALUMINIUM_INGOT))
                 .offerTo(exporter);
 
-
-
-
+        /* ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.CARBURIZING_FURNACE)
+                .pattern("AAA")
+                .pattern("A A")
+                .pattern("AAA")
+                .input('A', ModItems.ALUMINIUM_INGOT)
+                .criterion(hasItem(ModItems.ALUMINIUM_INGOT), conditionsFromItem(ModItems.ALUMINIUM_INGOT))
+                .offerTo(exporter); */
 
     }
 }

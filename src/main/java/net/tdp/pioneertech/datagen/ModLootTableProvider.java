@@ -15,7 +15,6 @@ import net.minecraft.loot.provider.number.UniformLootNumberProvider;
 import net.minecraft.registry.RegistryKeys;
 import net.minecraft.registry.RegistryWrapper;
 import net.tdp.pioneertech.block.ModBlocks;
-import net.tdp.pioneertech.item.ModItems;
 
 import java.util.concurrent.CompletableFuture;
 

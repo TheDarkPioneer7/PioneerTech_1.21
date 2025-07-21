@@ -1,0 +1,9 @@
+{
+  "type": "pioneertech:carburizing_furnace",
+  "ingredient": {
+    "item": "minecraft:iron_ingot"
+  },
+  "result": {
+    "id": "pioneertech:steel_ingot"
+  }
+}

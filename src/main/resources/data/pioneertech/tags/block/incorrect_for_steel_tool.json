@@ -1,8 +1,0 @@
-{
-  "values": [
-    "minecraft:incorrect_for_diamond_tool"
-    ],
-  "remove": [
-    "pioneertech:needs_for_steel_tool"
-  ]
-}

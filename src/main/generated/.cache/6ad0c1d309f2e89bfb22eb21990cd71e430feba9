@@ -1,6 +1,7 @@
-// 1.21	2025-07-18T11:19:44.7792399	PioneerTech/Recipes
+// 1.21	2025-07-19T20:26:43.4108329	PioneerTech/Recipes
 c60c925f5e8f5c0874dde0ad0958f064b0e28c73 data\pioneertech\recipe\aluminium_shovel.json
 974867a81bb2ef8bbda80185a152ebd88811f18c data\pioneertech\advancement\recipes\tools\steel_hoe.json
+07d397bb95022f6b0647d98795721d587634c5c9 data\pioneertech\advancement\recipes\building_blocks\carburizing_furnace.json
 0284a9805415d8ccd52b3f9c12f29a308481d49c data\pioneertech\recipe\aluminium_chestplate.json
 638c1f55457747f98e298b844f0a61cb036c0d24 data\pioneertech\advancement\recipes\building_blocks\steel_block_from_steel_ingot.json
 19a48dbff3312028381be4c7ad22efcf805ec386 data\pioneertech\advancement\recipes\building_blocks\aluminium_block_from_aluminium_ingot.json
@@ -48,6 +49,7 @@ ef499c060a5fe0b059a33d2ecedcf4f7112e80f3 data\pioneertech\advancement\recipes\co
 9c74cd45f024938d7bda31a70b668ad3fd764a5d data\pioneertech\recipe\aluminium_pickaxe.json
 f36fb4d76c8809327d382ddb1fe22ff835bdfa4f data\pioneertech\recipe\steel_sword.json
 ba3f5cf71026eb222349fd6c0f69578325bc56cb data\pioneertech\recipe\steel_block_from_steel_ingot.json
+f210b7238374f05630033d0f0de0074845514f1d data\pioneertech\recipe\carburizing_furnace.json
 64986c9df48d8c9ec837a653c8e41459e57b19da data\pioneertech\recipe\aluminium_axe.json
 f78733deb2d9a7d83a0e60b0036dabdf0dc82dbb data\pioneertech\advancement\recipes\combat\steel_helmet.json
 2a9dcd89114ab7283db749733fcc119ad2dea168 data\pioneertech\recipe\aluminium_nuggets_from_aluminium_ingot.json
